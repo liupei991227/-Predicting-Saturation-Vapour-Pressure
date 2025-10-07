@@ -11,7 +11,9 @@ using the TopFP descriptor as inputs to a machine learning model to learn pSat a
 Following are the columns which make up the training/test data set. Barring the Id and the log_pSat_Pa columns, all others form the interpretable features of the molecules:
 
 • ID - A unique molecule index used in naming files.
+
 • log_pSat_Pa- Logarithmic saturation vapour pressure of the molecule calculated by COSMOtherm (Pa).
+
 • MW - The molecular weight of the molecule (g/mol).
 • NumOfAtoms - The number of atoms in the molecule.
 • NumOfC - The number of carbon atoms in the molecule.

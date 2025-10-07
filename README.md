@@ -26,7 +26,7 @@ Following are the columns which make up the training/test data set. Barring the 
 
 • NumHBondDonors - “The number of hydrogen bond donors in the molecule, i.e. hydrogens bound to oxygen.”
 
-• parentspecies- Either “decane”, “toluene”, “apin” for alpha-pinene or a combination of these connected by an underscore to indicate ambiguous descent. In 243 cases, the parent species is “None” because it was not possible to retrieve it.
+• parentspecies- Either “decane”, “toluene”, “apin” for alpha-pinene or a combination of these connected by an underscore to indicate ambiguous descent. In 243 cases, the parent species is “None” because it was not possible to retrieve it.
 
 • NumOfConf- The number of stable conformers found and successfully calculated by COSMOconf.
 
@@ -65,7 +65,7 @@ Following are the columns which make up the training/test data set. Barring the 
 • nitroester- The number of nitroester groups found in the molecule
 
 ## Your task
-Saturation vapour pressure is a continuous variable, hence, your task is to build a regression-based machinelearning model that uses the aforementioned interpretable features or topographical fingerprints of the molecules.
+Saturation vapour pressure is a continuous variable, hence, your task is to build a regression-based machine learning model that uses the aforementioned interpretable features or topographical fingerprints of the molecules.
 
 NOTE: This is a non-trivial regression task. It is possible to do it in many ways. The most straightforward regression model that you could build is a linear regressor, but that is inefficient for the task because the relationship between input features and the pSat is non-linear. Therefore, you should undertake a thorough data exploration, pre processing, feature selection, model selection, performance estimation, etc., appropriately since you will report and analyse your choices and results in the term project report.
 

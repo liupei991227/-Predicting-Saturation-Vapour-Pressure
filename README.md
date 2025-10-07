@@ -65,13 +65,12 @@ Following are the columns which make up the training/test data set. Barring the 
 • nitroester- The number of nitroester groups found in the molecule
 
 ## Your task
-Saturation vapour pressure is a continuous variable, hence, your task is to build a regression-based machinelearning model that uses the aforementioned interpretable features or topographical fingerprints of the
-molecules.
-NOTE: This is a non-trivial regression task. It is possible to do it in many ways. The most straightforward regression model that you could build is a linear regressor, but that is inefficient for the task because
-the relationship between input features and the pSat is non-linear. Therefore, you should undertake a thorough data exploration, pre-processing, feature selection, model selection, performance estimation, etc.,
-appropriately since you will report and analyse your choices and results in the term project report.
-The project’s purpose is not to (even try to!) replicate any methods in the literature, make a super-complex best-performing classifier that beats everything else or attempt to use other data sources, etc., to obtain
-the best possible performance score. You should not use any method that you do not understand yourself!
+Saturation vapour pressure is a continuous variable, hence, your task is to build a regression-based machinelearning model that uses the aforementioned interpretable features or topographical fingerprints of the molecules.
+
+NOTE: This is a non-trivial regression task. It is possible to do it in many ways. The most straightforward regression model that you could build is a linear regressor, but that is inefficient for the task because the relationship between input features and the pSat is non-linear. Therefore, you should undertake a thorough data exploration, pre processing, feature selection, model selection, performance estimation, etc., appropriately since you will report and analyse your choices and results in the term project report.
+
+The project’s purpose is not to (even try to!) replicate any methods in the literature, make a super-complex best-performing classifier that beats everything else or attempt to use other data sources, etc., to obtain the best possible performance score. You should not use any method that you do not understand yourself!
+
 Accuracy of the predictions on the test data is not a grading criterion by itself, even though a terrible performance may indicate something fishy in your approach (which can affect grading).
 
 
